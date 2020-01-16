@@ -29,7 +29,7 @@ export default function App() {
 
   return (
     <div className="App">
-      <img className="Img" src={images} alt="broken" />
+      <img className="Img" src={images} alt="broken"/>
       <strong>{text}</strong>
       <button className="Button" onClick={btnClick}>
         DOGGIE!
