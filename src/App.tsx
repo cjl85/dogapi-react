@@ -4,9 +4,10 @@ import axios from "axios";
 import "./styles.css";
 
 export default function App() {
+
   const path = "https://images.dog.ceo/breeds/basenji/n02110806_4280.jpg";
 
-  const [text, setText] = React.useState("");
+  const [text, setText]    = React.useState("");
   const [images, setImage] = React.useState(path);
 
   function btnClick() {
@@ -18,7 +19,7 @@ export default function App() {
       .then(
         axios.spread(response => {
           setImage(response.data.message);
-          setText(response.data.message.split("/")[4]);
+           setText(response.data.message.split("/")[4]);
         })
       )
       .catch(err => {
