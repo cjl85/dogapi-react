@@ -1,3 +1,3 @@
-This is a simple react app that pulls from a dog API and display them randomly and returning their breed name.
+This is a simple React app built with Typescript, React Hooks, and Axios to retrieve data and pulls from a Dog API to display them randomly and return their breed name.
 
 ![alt text](b.png)
