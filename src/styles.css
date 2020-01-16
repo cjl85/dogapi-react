@@ -1,0 +1,29 @@
+.App {
+  text-align: center;
+  font-family: "Gill Sans", sans-serif;
+  margin-top: 5px;
+}
+
+.App strong {
+  display: block;
+}
+
+.Button {
+  width: 15%;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 5em;
+  margin-top: 5px;
+  transition-duration: 0.4s;
+}
+
+.Button:hover {
+  background-color: lightblue;
+}
+
+.Img {
+  max-width: 100%;
+  height: auto;
+  max-height: 100%;
+  display: block;
+}
